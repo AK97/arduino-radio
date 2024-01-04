@@ -116,9 +116,11 @@ An FM radio built with an Arduino Uno and a TEA5767 FM radio module.
 
 #### Upload the Code to the Arduino
 
-* Download [radio.ino](radio.ino)
+* Download [the code](assets/arduino-radio.zip)
+    * If running locally on Arduino IDE, unzip the file and open the .ino code with Arduino IDE
+    * If running online on Arduino Create, upload the whole zip as a sketch.
 * Connect the Arduino Uno to your computer with the USB wire
-* Open the code file in the Arduino IDE
+* Open the code file
 * Verify (compile) the code by pressing the checkmark, then upload the file to the Arduino.
 
 You're done!
