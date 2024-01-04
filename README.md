@@ -1,15 +1,15 @@
 # Arduino Radio
 An FM radio built with an Arduino Uno and a TEA5767 FM radio module. 
- 
+
 Utilizes [mroger's](https://github.com/mroger/TEA5767) TEA5767 Library, which is required to run the [code](radio.ino).
 
 ## Parts
 - [ ] Arduino Uno (1)
 - [ ] Breadboard (2)
-- [ ] 10k-ohm Potentiometer (1)
-- [ ] TEA 5767 (1)
-- [ ] LCD Module (1)
-- [ ] Amplifier (1)
+- [ ] [10k-ohm Potentiometer](assets/images/Potentiometer.jpg) (1)
+- [ ] [TEA 5767](assets/images/TEA5767.jpg) (1)
+- [ ] [LCD Module](assets/images/LCD.png) (1)
+- [ ] [Amplifier](assets/images/Amplifier.jpg) (1)
 - [ ] Speakers (2)
 - [ ] 3.5mm audio cable (1)
 - [ ] Wires (Many)
