@@ -35,7 +35,7 @@ void adjustFrequency(float freq, int oldFreq) {
     Serial.print(freq);
     Serial.println(" MHz");
 
-    RADIO.selectFrequency(freq));
+    RADIO.selectFrequency(freq);
 }
 
 float convertAnalogReadToFreq(int analogValue) {
