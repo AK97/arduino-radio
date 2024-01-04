@@ -3,12 +3,12 @@ An FM radio built with an Arduino Uno and a TEA5767 FM radio module.
 
 ## Parts
 - [ ] Arduino Uno (1)
-- [ ] TEA 5767 (1)
 - [ ] Breadboard (2)
-- [ ] Speakers (2)
+- [ ] 10k-ohm Potentiometer (1)
+- [ ] TEA 5767 (1)
 - [ ] LCD Module (1)
 - [ ] Amplifier (1)
-- [ ] 10k-ohm Potentiometer (1)
+- [ ] Speakers (2)
 - [ ] 3.5mm audio cable (1)
 - [ ] Wires (Many)
 - [ ] Small philips head screwdriver (1)
