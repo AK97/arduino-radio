@@ -10,7 +10,6 @@ An FM radio built with an Arduino Uno and a TEA5767 FM radio module.
 - [ ] Speakers (2)
 - [ ] LCD Module (1)
 - [ ] Wires (Many)
-- [ ] 12-ohm Resistors (5)
 - [ ] Amplifier (1)
 - [ ] Switch (1)
 - [ ] 10k-ohm Potentiometer (1)
@@ -65,7 +64,7 @@ An FM radio built with an Arduino Uno and a TEA5767 FM radio module.
 #### Connect the potentiometer
 
 * Place the potentiometer (knob) on the second breadboard, into pins ```j1``` - ```j5```. The knob should be facing the right. The three pins on the potentiometer will be inserted into ```j1```, ```j3```, and ```j5```.
-* Place the following wires:
+* Place the following wires in the **second** breadboard:
 
 | From | To |
 | --- | --- |
@@ -86,4 +85,50 @@ An FM radio built with an Arduino Uno and a TEA5767 FM radio module.
 | Left side, second column (negative bus) (blue) | ```f30``` |
 
 * Plug in the TEA5767 Module to the second breadboard. The four pins should connect to ```j27```, ```j28```, ```j29```, and ```j30```. The top of the module (the side with the pins sticking out) should face LEFT (inward on the breadboard).
+* Make sure to extend the antenna all the way out before using the radio.
 
+#### Connect the Amplifier
+
+* The amplifier has 6 ports for wires.
+* You will need a small screwdriver to loosen each screw, insert the wire, then tighten the screw.
+* Attach the following wires from the Amplifier to the second breadboard:
+
+| Amplifier | Second Breadboard |
+| --- | --- |
+| First slot on the left (DC-) | Left side, second column (negative bus) (blue) |
+| Second slot on the left (DC+) | Left side, first column (positive bus) (red) |
+
+#### Connect the Speakers
+
+* There are two speakers, each with a red and black wire.
+* Connect the speakers to the amplifier like this:
+
+| Speaker 1 | Amplifier |
+| --- | --- |
+| Red | Slot 3 (OUT L) |
+| Black | Slot 4 (GND) |
+
+| Speaker 2 | Amplifier |
+| --- | --- |
+| Red | Slot 6 (OUT R) |
+| Black | Slot 5 (DNG) |
+
+#### Attach the Amplifier Module to the TEA5767 Module
+
+* Use the 3.5 mm audio cable to connect the two modules.
+* The TEA5767 slot will have a speaker icon - connect the wire to that slot.
+
+#### Upload the Code to the Arduino
+
+* Download [radio.ino](radio.ino)
+* Connect the Arduino Uno to your computer with the USB wire
+* Open the code file in the Arduino IDE
+* Verify (compile) the code by pressing the checkmark, then upload the file to the Arduino.
+
+You're done!
+
+## Using the Radio
+
+Plug in the arduino to a computer to power it on.
+
+Turn the knob (potentiometer) to tune the radio. The current channel will appear on the LCD screen.
